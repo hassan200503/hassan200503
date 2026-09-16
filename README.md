@@ -1,46 +1,22 @@
-# Hi, I'm Hassan Tsuma👋
+## Professional Summary
 
-💻 Full-stack engineer, currently building **RentManager**
+Software Engineer focused on production-grade, multi-tenant SaaS platforms — strong backend
+specialization in Java & Spring Boot, full-stack capable with React, Next.js, and TypeScript.
+Comfortable with domain-driven design, REST APIs, authentication, payment/billing integrations,
+and building systems where correctness and data integrity aren't optional.
 
-📚 Computer Science student at Tom Mboya University, Homabay-Kenya
+**Core Skills**
+- **Backend:** Java, Spring Boot, Spring Data JPA/Hibernate, REST APIs, JWT Auth
+- **Frontend:** React, Next.js, TypeScript, React Query
+- **Architecture:** Multi-Tenant SaaS, Domain-Driven Design, Clean Architecture, Event-Driven Systems
+- **Data & Infra:** PostgreSQL, Flyway, Docker, Redis, Kafka
+- **Payments:** Gateway integrations, billing workflows, idempotent transactions
+- **Practices:** Automated & integration testing, Git/GitHub, OpenAPI
 
-🚀 I like problems where correctness matters more than speed of shipping — money, records, anything a business can't afford to get wrong. I'm building depth by taking on harder versions of that same kind of problem.
 
-## 🧠 Skills
+I am actively looking for a job, I can own a full system end to end or build you a specific feature and deploy it for you and give you back the link. If you are looking for a serious developer, please consider reaching out to me.
 
-- **Backend:** Java, Spring Boot, PostgreSQL, Flyway
-- **Frontend:** TypeScript, React, Next.js
-- **Integrations:** M-Pesa Daraja API, Clerk (JWT auth), Africa's Talking SMS
-- **Testing:** JUnit, Testcontainers, ArchUnit, Vitest
-- **Fundamentals:** Object-Oriented Programming, Git & GitHub, Problem Solving
 
-## 📂 Projects
-
-### RentManager
-
-A Kenya-first rental-management SaaS — landlords manage properties and leases, tenants pay rent by M-Pesa, and the platform handles commission, payouts, and Kenya's rental-income tax rules. Spring Boot backend, Next.js frontend. Actively engineered, pre-launch.
-
-### JavaFX Applications
-
-* Count Button App
-* Temperature Converter
-* Calculator App *(coming soon)*
-* Login System *(coming soon)*
-
-## 🎯 Current Goals
-
-* Push RentManager toward production readiness
-* Learn **Data Structures & Algorithms** more deeply
-* Keep building depth through harder problems, not a wider list of frameworks
-
-## Vision
-* Become a powerful software developer
-* Solve real problems businesses actually have
-* Build software people trust with things that matter
-
-## 🔗 GitHub Stats
-
-![Hassan's GitHub stats](https://github-readme-stats.vercel.app/api?username=hassan200503&show_icons=true)
-
-⭐ Check out my repositories to see what I'm building.
-I'd like to connect with other programmers — reach me on WhatsApp +254 714 931575
+Email: karungwahassan03@gmail.com
+What'sApp: +254 714931575
+Call: 254 714931575
