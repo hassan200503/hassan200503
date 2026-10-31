@@ -2,7 +2,7 @@
 
 **Full-stack software engineer, backend-focused — SaaS & systems architecture**
 
-Based in Kenya (UTC+3) · Freelance software engineer since 2023 · BSc Computer Science, Tom Mboya University (expected 2028)
+Based in Kenya (UTC+3) · Freelance software engineer since 2023 · 
 
 I build multi-tenant business software where money and data have to stay correct: payments, ledgers, access control, and the tests that prove they work.
 
@@ -19,6 +19,8 @@ A property and rental management SaaS built for the Kenyan market, with M-Pesa (
 | [rentmanager-backend](https://github.com/hassan200503/rentmanager-backend) | Java 21 / Spring Boot 3 API: 20+ modules, PostgreSQL, Flyway |
 | [rentmanager-frontend](https://github.com/hassan200503/rentmanager-frontend) | Next.js 16 / React 19 / TypeScript web app, deployed on Cloudflare Workers |
 | [rentmanager-mobile](https://github.com/hassan200503/rentmanager-mobile) | Expo / React Native app, 27 screens |
+
+
 
 **Engineering decisions I'm proud of**
 
