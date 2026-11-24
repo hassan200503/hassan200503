@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="340" rx="16" fill="#0d1117"/>
+
+  <!-- Subtle top accent line -->
+  <rect x="0" y="0" width="1200" height="3" rx="16" fill="#1f6feb"/>
+
+  <!-- Terminal title bar -->
+  <rect x="0" y="0" width="1200" height="44" rx="16" fill="#161b22"/>
+  <rect x="0" y="28" width="1200" height="16" fill="#161b22"/>
+
+  <!-- Traffic lights -->
+  <circle cx="28" cy="22" r="7" fill="#ff5f56"/>
+  <circle cx="52" cy="22" r="7" fill="#ffbd2e"/>
+  <circle cx="76" cy="22" r="7" fill="#27c93f"/>
+
+  <!-- Title bar text -->
+  <text x="600" y="28" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">hassan@kenya: ~/engineering</text>
+
+  <!-- Cursor blink animation -->
+  <rect x="0" y="0" width="0" height="0" fill="none"/>
+
+  <!-- Main content area -->
+  <!-- Name -->
+  <text x="64" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="700" fill="#c9d1d9">Hassan Tsuma</text>
+
+  <!-- Role with accent -->
+  <text x="64" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="500" fill="#1f6feb">Full-Stack Software Engineer</text>
+
+  <!-- Separator dots -->
+  <text x="64" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#1f6feb"> </text>
+
+  <!-- Proof line -->
+  <text x="64" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" fill="#8b949e">
+    <tspan fill="#238636" font-weight="600">$</tspan>
+    <tspan fill="#8b949e"> build --evidence</tspan>
+  </text>
+
+  <!-- Proof metrics as typed output -->
+  <text x="64" y="234" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#c9d1d9">
+    <tspan fill="#238636">20</tspan>
+    <tspan fill="#8b949e"> modules · </tspan>
+    <tspan fill="#238636">1,600+</tspan>
+    <tspan fill="#8b949e"> tests · </tspan>
+    <tspan fill="#238636">100+</tspan>
+    <tspan fill="#8b949e"> migrations · </tspan>
+    <tspan fill="#238636">M-Pesa</tspan>
+    <tspan fill="#8b949e"> · </tspan>
+    <tspan fill="#238636">8</tspan>
+    <tspan fill="#8b949e"> AI providers</tspan>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="64" y="258" width="11" height="22" rx="2" fill="#1f6feb">
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.06s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Prompt symbol before cursor -->
+  <text x="80" y="276" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#238636" font-weight="600">$</text>
+
+  <!-- Bottom tags -->
+  <text x="64" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#484f58">
+    Java 21 · Spring Boot 3 · PostgreSQL · React 19 · TypeScript · Expo · Electron
+  </text>
+
+  <!-- Right side availability badge -->
+  <rect x="980" y="92" width="160" height="32" rx="16" fill="#0d1117" stroke="#238636" stroke-width="1.5"/>
+  <circle cx="1000" cy="108" r="5" fill="#238636">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1014" y="113" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#238636">Available immediately</text>
+
+  <!-- Right side location -->
+  <text x="1140" y="150" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#8b949e">Kenya · UTC+3 · Remote (any timezone)</text>
+</svg>
