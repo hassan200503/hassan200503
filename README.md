@@ -75,7 +75,7 @@
 
 I build **multi-tenant business software where money and data have to stay correct** — payments, ledgers, access control, and the tests that prove they work.
 
-My flagship project, **RentManager**, is a live SaaS with **21 backend modules, 100+ database migrations, and ~1,600 automated tests**.
+My flagship project, **RentManager**, is a live SaaS with **20 backend modules, 100+ database migrations, and ~1,600 automated tests**.
 
 My second, **Automata**, is a **voice-first Windows AI assistant with 46 OS-level tools and multi-model ensemble reasoning** across 8+ AI providers.
 
@@ -277,19 +277,16 @@ I'm honest about where I'm still growing — running systems under real producti
 </td>
 <td width="50%" valign="top">
 
-### 🧠 Engineering Principles
+### 🔧 Tooling & Workflow
 
-> 💰 **Money is append-only** — never edited or deleted; corrections are new linked entries
+<img src="https://img.shields.io/badge/Git-181717?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/MapStruct-D97757?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Springdoc_OpenAPI-6BA539?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Swagger_UI-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
+<img src="https://img.shields.io/badge/gitleaks-6C2BFF?style=for-the-badge&logoColor=white" />
 
-> 🧱 **Don't reach for distributed complexity you don't need** — modular monolith with DB-backed outbox
-
-> 🔒 **Fail closed on anything legal or financial** — tax module defaults off until a human confirms
-
-> 📜 **The schema is a historical record, not a draft** — 100 sequential migrations, never edited after running
-
-> ✅ **If it isn't tested, assume it's broken** — ~2,400+ tests across all projects
-
-**Development process:** Understand problem → Map domain → Design architecture & trade-offs → Build in tested increments → Test money paths first → Ship, then say what's still open
+**Practices:** ADRs for key decisions · Hexagonal architecture enforced via ArchUnit · Convention over configuration · Contract-first API design · Separation of concerns (`api → application → domain → infrastructure`) · Zero type/lint errors as a gate · Code review valued over pay right now
 
 </td>
 </tr>
@@ -346,7 +343,7 @@ I'm honest about where I'm still growing — running systems under real producti
 <details>
 <summary><b>📖 Full project breakdown & engineering decisions</b></summary>
 
-**Product scope:** 20+ domain modules — property, leasing, rent ledger, deposits, maintenance, subscriptions, reviews, tax, platform administration
+**Product scope:** 20 domain modules — property, leasing, rent ledger, deposits, maintenance, subscriptions, reviews, tax, platform administration
 
 **Surfaces shipped:**
 
@@ -354,11 +351,11 @@ I'm honest about where I'm still growing — running systems under real producti
 |---|---|---|
 | **Web** | 63 routes — landlord dashboard, tenant portal, public listings, admin console | Next.js 16, React 19, TanStack Query |
 | **Mobile** | 27 screens — push notifications, offline detection, secure token storage, crash reporting | Expo 57, React Native 0.86, Expo Router |
-| **API** | 21 modules behind one contract — tenant isolation via verified token | Java 21, Spring Boot 3, PostgreSQL 16 |
+| **API** | 20 modules behind one contract — tenant isolation via verified token | Java 21, Spring Boot 3, PostgreSQL 16 |
 
 **Engineering decisions I'm proud of:**
 
-- **Modular monolith, on purpose.** 20+ modules in one deployable, with no microservices, message broker, Kafka or Redis, because the problem doesn't need them yet.
+- **Modular monolith, on purpose.** 20 modules in one deployable, with no microservices, message broker, Kafka or Redis, because the problem doesn't need them yet.
 - **Tenant isolation from verified identity.** The tenant is derived from a verified Clerk JWT and enforced again at repository level.
 - **Append-only financial ledger**, enforced by a PostgreSQL trigger so history can't be quietly rewritten.
 - **Idempotent M-Pesa STK Push:** a repeated request within a 3-minute window returns the existing pending payment instead of sending a second one (ADR-0016).
@@ -489,7 +486,7 @@ I'm honest about where I'm still growing — running systems under real producti
 
 | Repository | Description | Primary Language | License |
 |---|---|---|---|
-| [rentmanager-backend](https://github.com/hassan200503/rentmanager-backend) | RentManager API: rental management for Kenyan landlords and renters. Spring Boot 3, Java 21, PostgreSQL, M-Pesa Daraja, Clerk auth, multi-tenant. 21 modules, 100+ Flyway migrations, ~1,600 tests. | Java | — |
+| [rentmanager-backend](https://github.com/hassan200503/rentmanager-backend) | RentManager API: rental management for Kenyan landlords and renters. Spring Boot 3, Java 21, PostgreSQL, M-Pesa Daraja, Clerk auth, multi-tenant. 20 modules, 100+ Flyway migrations, ~1,600 tests. | Java | — |
 | [rentmanager-frontend](https://github.com/hassan200503/rentmanager-frontend) | Kenya's trusted rental platform \| Full-stack Property Management SaaS with M-Pesa integration, digital leases, real-time analytics, and automated rent collection. 63 routes, deployed on Cloudflare Workers. | TypeScript | MIT |
 | [rentmanager-mobile](https://github.com/hassan200503/rentmanager-mobile) | RentManager mobile app for landlords and renters in Kenya. Expo 57, React Native 0.86, TypeScript. 27 screens, M-Pesa STK Push, push notifications, offline detection. | TypeScript | MIT |
 | [automata](https://github.com/hassan200503/automata) | Windows-first, voice-first personal AI companion. 46 OS-level tools, multi-model ensemble reasoning (8+ providers), SQLCipher encryption, 539 tests, 26.6k lines. | TypeScript | MIT |
@@ -519,7 +516,7 @@ I'm honest about where I'm still growing — running systems under real producti
 <img src="https://img.shields.io/badge/Payments_Engineer-43A047?style=flat-square&logoColor=white" />
 <img src="https://img.shields.io/badge/Fintech_Developer-2B5E8C?style=flat-square&logoColor=white" />
 
-**Evidence:** RentManager backend — 21 modules, M-Pesa Daraja, append-only ledger, idempotency, pessimistic locking, ~1,600 tests
+**Evidence:** RentManager backend — 20 modules, M-Pesa Daraja, append-only ledger, idempotency, pessimistic locking, ~1,600 tests
 
 </td>
 <td width="50%" valign="top">
@@ -585,6 +582,8 @@ I'm honest about where I'm still growing — running systems under real producti
 | **Open source** | Want to work alongside more experienced engineers. Code review is valued more than pay right now. |
 
 **Where:** Remote (any timezone) · On-site in Kenya · Willing to relocate for the right role
+
+**Timezone overlap:** UTC+3 — 1–2 hours ahead of CET, same morning window as EET, and a natural 4-hour overlap with US East Coast afternoons.
 
 <br/>
 
