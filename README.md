@@ -1,7 +1,7 @@
 <!-- Banner -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:238636&height=220&section=header&text=Hassan%20Tsuma&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Software%20Engineer%20·%20Backend%20Systems%20·%20AI%20Automation&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" alt="Hassan Tsuma banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:238636&height=220&section=header&text=Hassan%20Tsuma&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Full-Stack%20Software%20Engineer%20%C2%B7%20Backend%20Systems%20%C2%B7%20AI%20Automation&descSize=16&descColor=8b949e&descAlignY=55&animation=fadeIn" width="100%" alt="Hassan Tsuma banner" />
 
 </div>
 
@@ -15,39 +15,103 @@
 
 <br/>
 
-<!-- Quick facts table -->
+<!-- Quick facts badges -->
 <div align="center">
 
-| 📍 Homabay, Kenya (UTC+3) | 🧑‍💻 3+ years freelance | 🎓 Computer Science student | 🟢 Available immediately |
-|:---:|:---:|:---:|:---:|
+<img src="https://img.shields.io/badge/%F0%9F%93%8D_Kenya,_Coast-1f6feb?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/%F0%9F%A7%91%E2%80%8D%F0%9F%92%BB_3%2B_years_freelance-238636?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/%F0%9F%9F%A2_Available_immediately-22c55e?style=flat-square&labelColor=0d1117" />
+<img src="https://img.shields.io/badge/%F0%9F%8C%90_Remote_%7C_any_timezone-7c3aed?style=flat-square&labelColor=0d1117" />
 
 </div>
 
 <br/>
 
-<!-- About Section -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Man%20Technologist.png" width="28" /> About Me
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ABOUT SECTION                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 👨‍💻 About Me
 
-```yaml
-name: "Hassan Tsuma Karungwa"
-role: "Full-Stack Software Engineer — Backend-focused"
-location: "Homabay, Kenya (UTC+3 / East Africa Time)"
-experience: "3+ years — freelance & independent (since 2023)"
-education: "Computer Science (in progress)"
-availability: "Open to work — immediate, no notice period"
-remote: "Yes — any timezone (UTC+3 overlaps EU, ME, India, Africa, US-East mornings)"
-relocation: "Willing for the right role"
-philosophy: "I build depth through increasingly complex systems, not claiming expertise I haven't earned yet."
-```
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I build **multi-tenant business software where money and data have to stay correct** — payments, ledgers, access control, and the tests that prove they work. My flagship project, RentManager, is a live SaaS with **21 backend modules, 100+ database migrations, and ~1,600 automated tests**. My second, Automata, is a **voice-first Windows AI assistant with 46 OS-level tools and multi-model ensemble reasoning**.
+### 🪪 Profile
 
-I gravitate toward problems where **correctness matters more than speed**: money, records, and things businesses can't afford to get wrong. I'm honest about where I'm still growing — running systems under real production load and distributed systems — which is why RentManager is a **modular monolith on purpose**, not premature microservices.
+<img src="https://img.shields.io/badge/Name-Hassan%20Tsuma%20Karungwa-1f6feb?style=flat-square&labelColor=0d1117" />
 
 <br/>
 
-<!-- GitHub Stats -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Bar%20Chart.png" width="28" /> GitHub in Numbers
+<img src="https://img.shields.io/badge/Role-Full--Stack%20Software%20Engineer-238636?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Focus-Backend%20%C2%B7%20SaaS%20%C2%B7%20AI-7c3aed?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Location-Kenya%2C%20Coast%20(UTC%2B3)-1f6feb?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Experience-3%2B%20years%20(since%202023)-238636?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Availability-Open%20to%20work%20%C2%B7%20immediate-22c55e?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Remote-Yes%20%C2%B7%20any%20timezone-6c47ff?style=flat-square&labelColor=0d1117" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Relocation-Willing%20for%20right%20role-d97757?style=flat-square&labelColor=0d1117" />
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 What I Build
+
+I build **multi-tenant business software where money and data have to stay correct** — payments, ledgers, access control, and the tests that prove they work.
+
+My flagship project, **RentManager**, is a live SaaS with **21 backend modules, 100+ database migrations, and ~1,600 automated tests**.
+
+My second, **Automata**, is a **voice-first Windows AI assistant with 46 OS-level tools and multi-model ensemble reasoning** across 8+ AI providers.
+
+I gravitate toward problems where **correctness matters more than speed**: money, records, and things businesses can't afford to get wrong.
+
+I'm honest about where I'm still growing — running systems under real production load and distributed systems — which is why RentManager is a **modular monolith on purpose**, not premature microservices.
+
+</td>
+</tr>
+<tr>
+<td width="100%" colspan="2" valign="top">
+
+### 🧭 Engineering Principles
+
+> 💰 **Money is append-only** — never edited or deleted; corrections are new linked entries
+>
+> 🧱 **Don't reach for distributed complexity you don't need** — modular monolith with DB-backed outbox
+>
+> 🔒 **Fail closed on anything legal or financial** — tax module defaults off until a human confirms
+>
+> 📜 **The schema is a historical record, not a draft** — 100 sequential migrations, never edited after running
+>
+> ✅ **If it isn't tested, assume it's broken** — ~2,400+ tests across all projects
+
+**My process:** Understand the problem → Map the domain → Design architecture & write down trade-offs → Build in focused, tested increments → Test money paths first → Ship, then say what's still open
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- GITHUB STATS                                                   -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 📊 GitHub in Numbers
 
 <div align="center">
 
@@ -62,14 +126,16 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- Skills Matrix -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Clipboard.png" width="28" /> Skills & Tech Stack
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- SKILLS MATRIX                                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🛠️ Skills & Tech Stack
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Gear.png" width="20" /> Backend Engineering
+### ⚙️ Backend Engineering
 
 <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
 <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
@@ -85,7 +151,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Floppy%20Disk.png" width="20" /> Data & Persistence
+### 💾 Data & Persistence
 
 <img src="https://img.shields.io/badge/PostgreSQL_16-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Flyway-CC2927?style=for-the-badge&logo=flyway&logoColor=white" />
@@ -101,7 +167,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Desktop%20Computer.png" width="20" /> Frontend & Mobile
+### 🖥️ Frontend & Mobile
 
 <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -118,7 +184,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Robot%20Face.png" width="20" /> AI, ML & LLMs
+### 🤖 AI, ML & LLMs
 
 <img src="https://img.shields.io/badge/Gemini-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" />
 <img src="https://img.shields.io/badge/Claude/Anthropic-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
@@ -136,7 +202,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Credit%20Card.png" width="20" /> Payments & Integrations
+### 💳 Payments & Integrations
 
 <img src="https://img.shields.io/badge/M_Pesa_Daraja-43A047?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white" />
@@ -150,7 +216,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Lock%20with%20Key.png" width="20" /> Security
+### 🔐 Security
 
 <img src="https://img.shields.io/badge/SQLCipher-1F6FEB?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Windows_Credential_Manager-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
@@ -167,7 +233,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Hammer%20and%20Wrench.png" width="20" /> Desktop & OS
+### 🪟 Desktop & OS
 
 <img src="https://img.shields.io/badge/Electron_45-47848F?style=for-the-badge&logo=electron&logoColor=white" />
 <img src="https://img.shields.io/badge/Win32_APIs-0078D4?style=for-the-badge&logo=windows&logoColor=white" />
@@ -179,7 +245,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Test%20Tube.png" width="20" /> Testing & Delivery
+### 🧪 Testing & Delivery
 
 <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
 <img src="https://img.shields.io/badge/Testcontainers-9B5B2B?style=for-the-badge&logo=testcontainers&logoColor=white" />
@@ -197,7 +263,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Rocket.png" width="20" /> Infrastructure & Hosting
+### 🚀 Infrastructure & Hosting
 
 <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
 <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
@@ -211,17 +277,17 @@ I gravitate toward problems where **correctness matters more than speed**: money
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Brain.png" width="20" /> Engineering Principles
+### 🧠 Engineering Principles
 
-> **Money is append-only** — never edited or deleted; corrections are new linked entries
+> 💰 **Money is append-only** — never edited or deleted; corrections are new linked entries
 
-> **Don't reach for distributed complexity you don't need** — modular monolith with DB-backed outbox
+> 🧱 **Don't reach for distributed complexity you don't need** — modular monolith with DB-backed outbox
 
-> **Fail closed on anything legal or financial** — tax module defaults off until a human confirms
+> 🔒 **Fail closed on anything legal or financial** — tax module defaults off until a human confirms
 
-> **The schema is a historical record, not a draft** — 100 sequential migrations, never edited after running
+> 📜 **The schema is a historical record, not a draft** — 100 sequential migrations, never edited after running
 
-> **If it isn't tested, assume it's broken** — ~2,400+ tests across all projects
+> ✅ **If it isn't tested, assume it's broken** — ~2,400+ tests across all projects
 
 **Development process:** Understand problem → Map domain → Design architecture & trade-offs → Build in tested increments → Test money paths first → Ship, then say what's still open
 
@@ -231,10 +297,12 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- Featured Projects -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Sparkles.png" width="28" /> Featured Projects
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- FEATURED PROJECTS                                              -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## ✨ Featured Projects
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/File%20Folder.png" width="22" /> RentManager — Multi-tenant Rental SaaS for Kenya
+### 🏠 RentManager — Multi-tenant Rental SaaS for Kenya
 
 > Property and rental management platform with M-Pesa (STK Push) rent collection, digital leases, real-time analytics, and automated rent collection. Built for the Kenyan market.
 
@@ -309,7 +377,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Robot%20Face.png" width="22" /> Automata — Voice-First Windows AI Assistant
+### 🤖 Automata — Voice-First Windows AI Assistant
 
 > A Windows-first, voice-first personal AI companion. Speak or type; it runs real OS actions and is honest about what it did. Only claims an action succeeded when the result was actually observed.
 
@@ -379,7 +447,7 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 ---
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Two%20Hearts.png" width="22" /> Lovora — Private Shared World for Two
+### 💞 Lovora — Private Shared World for Two
 
 > A couples app: realtime chat, encrypted calls, synchronised watch/listen rooms, memories and live discoveries. Next.js + TypeScript, tested sync protocol, PGlite/Postgres.
 
@@ -414,8 +482,10 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- All Repositories -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Card%20Index%20Dividers.png" width="28" /> All Public Repositories
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ALL REPOSITORIES                                               -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 📂 All Public Repositories
 
 | Repository | Description | Primary Language | License |
 |---|---|---|---|
@@ -429,8 +499,10 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- Roles -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Briefcase.png" width="28" /> Roles I'm Equipped For
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- ROLES                                                          -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 💼 Roles I'm Equipped For
 
 <table>
 <tr>
@@ -501,13 +573,14 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- What I'm Looking For -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Magnifying%20Glass%20Tilted%20Left.png" width="28" /> What I'm Looking For
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- WHAT I'M LOOKING FOR                                           -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 🔍 What I'm Looking For
 
 | Role type | Details |
 |---|---|
 | **Full-time** | Junior / entry-level backend or full-stack roles — remote or Kenya-based |
-| **Internships** | Treated as a real role. Still a CS student. |
 | **Freelance & contract** | SaaS products, business workflow systems, backend/API work, M-Pesa integrations, AI-powered systems |
 | **Open source** | Want to work alongside more experienced engineers. Code review is valued more than pay right now. |
 
@@ -515,8 +588,10 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- Currently -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Spiral%20Calendar.png" width="28" /> Currently
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- CURRENTLY                                                      -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 📅 Currently
 
 - **Automata** — enhancing autonomous capabilities, voice interaction, and plugin system
 - **RentManager** — polishing deployment story and preparing for commercial launch
@@ -525,8 +600,10 @@ I gravitate toward problems where **correctness matters more than speed**: money
 
 <br/>
 
-<!-- Contact -->
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/animated-emoji/master/assets/Telephone%20Receiver.png" width="28" /> Let's Talk
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!-- CONTACT                                                        -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+## 📞 Let's Talk
 
 <div align="center">
 
