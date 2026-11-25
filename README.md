@@ -6,10 +6,9 @@
 </picture>
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- ABOUT SECTION                                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## About Me
 
 **Hassan Tsuma Karungwa** — full-stack software engineer with 3+ years of freelance experience (since 2023). Based in Kenya (UTC+3), available immediately for remote work in any timezone, and willing to relocate for the right role.
@@ -39,86 +38,164 @@ I'm honest about where I'm still growing — running systems under real producti
 **My process:** Understand the problem → Map the domain → Design architecture & write down trade-offs → Build in focused, tested increments → Test money paths first → Ship, then say what's still open
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- GITHUB STATS                                                   -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## GitHub in Numbers
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=hassan200503&show_icons=true&theme=github_dark&hide_border=true&count_private=true&title_color=1f6feb&icon_color=238636&text_color=c9d1d9&bg_color=0d1117" height="170" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=hassan200503&theme=github-dark-blue&hide_border=true&background=0D1117&ring=1F6FEB&fire=238636&currStreakLabel=C9D1D9&sideNums=C9D1D9&dates=8B949E" height="170" alt="Streak stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hassan200503&layout=compact&theme=github_dark&hide_border=true&title_color=1f6feb&text_color=c9d1d9&bg_color=0d1117&langs_count=10" height="170" alt="Top languages" />
 
 </div>
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- SKILLS                                                         -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## Skills & Tech Stack
 
 ### Backend Engineering
 
-**Java 21** · **Spring Boot 3** · **Spring Security** · **Node.js** · **TypeScript** · **REST / OpenAPI** · **JWT / JWKS**
-
-*Architecture:* Hexagonal (ports & adapters) · Domain-Driven Design · Clean Architecture · Modular monolith · Transactional outbox · SOLID · Object-oriented design
-
-### Data & Persistence
-
-**PostgreSQL 16** · **Flyway** · **JPA / Hibernate** · **Drizzle ORM** · **PGlite** · **Neon**
-
-*Data engineering:* Schema & constraint design · Append-only ledger patterns · Idempotency keys · Database triggers · Pessimistic locking · Keyset pagination · Transactional integrity
-
-### Frontend & Mobile
-
-**React 19** · **Next.js 16** · **TypeScript** · **TanStack Query** · **Vite** · **TailwindCSS** · **React Native 0.86** · **Expo 57**
-
-### AI, ML & LLMs
-
-**Gemini** · **Claude / Anthropic** · **OpenAI** · **OpenRouter** · **Groq** · **DeepSeek** · **NVIDIA** · **Perplexity**
-
-*AI capabilities:* Multi-model ensemble reasoning · LLM integration · Voice recognition & speech synthesis · Autonomous systems · Prompt engineering (layered L0–L7 compilation) · Circuit breakers & failover · Speaker verification · Learning engines
-
-### Payments & Integrations
-
-**M-Pesa Daraja** · **PayPal** · **Clerk** · **Africa's Talking** · **Cloudinary** · **WebRTC**
-
-*Payment engineering:* STK Push · B2C payouts · Callback handling · Idempotency · Reconciliation jobs · Per-tenant encrypted credentials · AES-GCM encryption
-
-### Security
-
-**SQLCipher** · **Windows Credential Manager** · **OAuth2** · **JWT** · **RBAC** · **DPAPI** · **Semgrep** · **gitleaks**
-
-*Security engineering:* Risk-classified policy engine (Class 1–4) · Rate limiting (sliding window) · Tenant isolation · Audit trails · Untrusted content boundaries · Dependency audit policies
-
-### Desktop & OS
-
-**Electron 45** · **Win32 APIs** · **WinRT** · **PowerShell** · **UI Automation** · **electron-builder**
-
-### Testing & Delivery
-
-**JUnit 5** · **Testcontainers** · **Mockito** · **ArchUnit** · **Vitest 5** · **Jest** · **Docker** · **GitHub Actions** · **Maven** · **Turborepo**
-
-### Infrastructure & Hosting
-
-**Cloudflare Workers** · **Render** · **Neon** · **Vercel** · **Prometheus** · **Sentry**
-
-*Ops:* Actuator health probes · Graceful shutdown · CI/CD pipelines · `render.yaml` blueprints · EAS Build · Lighthouse 95+
-
-### Tooling & Workflow
-
-**Git** · **GitHub** · **MapStruct** · **Springdoc OpenAPI** · **Swagger UI** · **gitleaks**
-
-*Practices:* ADRs for key decisions · Hexagonal architecture enforced via ArchUnit · Convention over configuration · Contract-first API design · Separation of concerns (`api → application → domain → infrastructure`) · Zero type/lint errors as a gate
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Java 21</code> · <code>Spring Boot 3</code> · <code>Spring Security</code> · <code>Node.js</code> · <code>TypeScript</code> · <code>REST / OpenAPI</code> · <code>JWT / JWKS</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Architecture</strong></td>
+<td>Hexagonal (ports & adapters) · Domain-Driven Design · Clean Architecture · Modular monolith · Transactional outbox · SOLID · Object-oriented design</td>
+</tr>
+</table>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- FEATURED PROJECTS                                              -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
+### Data & Persistence
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>PostgreSQL 16</code> · <code>Flyway</code> · <code>JPA / Hibernate</code> · <code>Drizzle ORM</code> · <code>PGlite</code> · <code>Neon</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Data engineering</strong></td>
+<td>Schema & constraint design · Append-only ledger patterns · Idempotency keys · Database triggers · Pessimistic locking · Keyset pagination · Transactional integrity</td>
+</tr>
+</table>
+
+<br/>
+
+### Frontend & Mobile
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>React 19</code> · <code>Next.js 16</code> · <code>TypeScript</code> · <code>TanStack Query</code> · <code>Vite</code> · <code>TailwindCSS</code> · <code>React Native 0.86</code> · <code>Expo 57</code></td>
+</tr>
+</table>
+
+<br/>
+
+### AI, ML & LLMs
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Providers</strong></td>
+<td><code>Gemini</code> · <code>Claude / Anthropic</code> · <code>OpenAI</code> · <code>OpenRouter</code> · <code>Groq</code> · <code>DeepSeek</code> · <code>NVIDIA</code> · <code>Perplexity</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Capabilities</strong></td>
+<td>Multi-model ensemble reasoning · LLM integration · Voice recognition & speech synthesis · Autonomous systems · Prompt engineering (layered L0–L7 compilation) · Circuit breakers & failover · Speaker verification · Learning engines</td>
+</tr>
+</table>
+
+<br/>
+
+### Payments & Integrations
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Providers</strong></td>
+<td><code>M-Pesa Daraja</code> · <code>PayPal</code> · <code>Clerk</code> · <code>Africa's Talking</code> · <code>Cloudinary</code> · <code>WebRTC</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Payment engineering</strong></td>
+<td>STK Push · B2C payouts · Callback handling · Idempotency · Reconciliation jobs · Per-tenant encrypted credentials · AES-GCM encryption</td>
+</tr>
+</table>
+
+<br/>
+
+### Security
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Tools</strong></td>
+<td><code>SQLCipher</code> · <code>Windows Credential Manager</code> · <code>OAuth2</code> · <code>JWT</code> · <code>RBAC</code> · <code>DPAPI</code> · <code>Semgrep</code> · <code>gitleaks</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Security engineering</strong></td>
+<td>Risk-classified policy engine (Class 1–4) · Rate limiting (sliding window) · Tenant isolation · Audit trails · Untrusted content boundaries · Dependency audit policies</td>
+</tr>
+</table>
+
+<br/>
+
+### Desktop & OS
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Electron 45</code> · <code>Win32 APIs</code> · <code>WinRT</code> · <code>PowerShell</code> · <code>UI Automation</code> · <code>electron-builder</code></td>
+</tr>
+</table>
+
+<br/>
+
+### Testing & Delivery
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>JUnit 5</code> · <code>Testcontainers</code> · <code>Mockito</code> · <code>ArchUnit</code> · <code>Vitest 5</code> · <code>Jest</code> · <code>Docker</code> · <code>GitHub Actions</code> · <code>Maven</code> · <code>Turborepo</code></td>
+</tr>
+</table>
+
+<br/>
+
+### Infrastructure & Hosting
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Cloudflare Workers</code> · <code>Render</code> · <code>Neon</code> · <code>Vercel</code> · <code>Prometheus</code> · <code>Sentry</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Ops</strong></td>
+<td>Actuator health probes · Graceful shutdown · CI/CD pipelines · `render.yaml` blueprints · EAS Build · Lighthouse 95+</td>
+</tr>
+</table>
+
+<br/>
+
+### Tooling & Workflow
+
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Git</code> · <code>GitHub</code> · <code>MapStruct</code> · <code>Springdoc OpenAPI</code> · <code>Swagger UI</code> · <code>gitleaks</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Practices</strong></td>
+<td>ADRs for key decisions · Hexagonal architecture enforced via ArchUnit · Convention over configuration · Contract-first API design · Separation of concerns (`api → application → domain → infrastructure`) · Zero type/lint errors as a gate</td>
+</tr>
+</table>
+
+<br/>
+<hr/>
+<br/>
+
 ## Featured Projects
 
 ### RentManager — Multi-tenant Rental SaaS for Kenya
@@ -160,7 +237,9 @@ I'm honest about where I'm still growing — running systems under real producti
 
 </details>
 
----
+<br/>
+<hr/>
+<br/>
 
 ### Automata — Voice-First Windows AI Assistant
 
@@ -217,7 +296,9 @@ I'm honest about where I'm still growing — running systems under real producti
 
 </details>
 
----
+<br/>
+<hr/>
+<br/>
 
 ### Lovora — Private Shared World for Two
 
@@ -238,16 +319,15 @@ I'm honest about where I'm still growing — running systems under real producti
 
 **Engineering highlights:**
 - Framework-free sync protocol with deterministic virtual-time tests (clock skew, latency, jitter, packet loss)
-- Couple-owned data scoped by `couple_id` — request input never decides tenant
+- Couple-owned data scoped by <code>couple_id</code> — request input never decides tenant
 - bcrypt(12), signed httpOnly JWTs, session versioning for revocation
 - Single-use hashed invitations, expire 7 days, consumed transactionally
 - GitHub Actions CI with gitleaks + Semgrep SARIF
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- ALL REPOSITORIES                                               -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## All Public Repositories
 
 | Repository | Description | Primary Language | License |
@@ -261,10 +341,9 @@ I'm honest about where I'm still growing — running systems under real producti
 | [hassan200503](https://github.com/hassan200503/hassan200503) | This profile README — personal information and portfolio. | Markdown | — |
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- WHAT I'M LOOKING FOR                                           -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## What I'm Looking For
 
 | Role type | Details |
@@ -278,10 +357,9 @@ I'm honest about where I'm still growing — running systems under real producti
 **Timezone overlap:** UTC+3 — 1–2 hours ahead of CET, same morning window as EET, and a natural 4-hour overlap with US East Coast afternoons.
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- CURRENTLY                                                      -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## Currently
 
 - **Automata** — enhancing autonomous capabilities, voice interaction, and plugin system
@@ -290,10 +368,9 @@ I'm honest about where I'm still growing — running systems under real producti
 - **Open to** junior / entry-level backend or full-stack roles (remote or Kenya-based) and freelance work on payments, SaaS backends, and AI-powered systems
 
 <br/>
+<hr/>
+<br/>
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!-- CONTACT                                                        -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
 ## Let's Talk
 
 <div align="center">
@@ -314,7 +391,6 @@ I'm honest about where I'm still growing — running systems under real producti
 </div>
 
 <br/>
-
 <hr/>
 
 <div align="center">
