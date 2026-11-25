@@ -2,7 +2,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img src="./assets/hero-dark.svg" width="100%" alt="Hassan Tsuma — Full-Stack Software Engineer">
+  <img src="./assets/hero-dark.svg" width="100%" alt="Hassan Tsuma â€” Full-Stack Software Engineer">
 </picture>
 
 <br/>
@@ -11,9 +11,9 @@
 
 ## About Me
 
-**Hassan Tsuma Karungwa** — full-stack software engineer with 3+ years of freelance experience (since 2023). Based in Kenya (UTC+3), available immediately for remote work in any timezone, and willing to relocate for the right role.
+**Hassan Tsuma Karungwa** â€” full-stack software engineer with 3+ years of freelance experience (since 2023). Based in Kenya (UTC+3), available immediately for remote work in any timezone, and willing to relocate for the right role.
 
-I build **multi-tenant business software where money and data have to stay correct** — payments, ledgers, access control, and the tests that prove they work.
+I build **multi-tenant business software where money and data have to stay correct** â€” payments, ledgers, access control, and the tests that prove they work.
 
 My flagship project, **RentManager**, is a live SaaS with **20 backend modules, 100+ database migrations, and ~1,600 automated tests**.
 
@@ -21,108 +21,21 @@ My second, **Automata**, is a **voice-first Windows AI assistant with 46 OS-leve
 
 I gravitate toward problems where **correctness matters more than speed**: money, records, and things businesses can't afford to get wrong.
 
-I'm honest about where I'm still growing — running systems under real production load and distributed systems — which is why RentManager is a **modular monolith on purpose**, not premature microservices.
+I'm honest about where I'm still growing â€” running systems under real production load and distributed systems â€” which is why RentManager is a **modular monolith on purpose**, not premature microservices.
 
 ### Engineering Principles
 
-> **Money is append-only** — never edited or deleted; corrections are new linked entries
+> **Money is append-only** â€” never edited or deleted; corrections are new linked entries
 >
-> **Don't reach for distributed complexity you don't need** — modular monolith with DB-backed outbox
+> **Don't reach for distributed complexity you don't need** â€” modular monolith with DB-backed outbox
 >
-> **Fail closed on anything legal or financial** — tax module defaults off until a human confirms
+> **Fail closed on anything legal or financial** â€” tax module defaults off until a human confirms
 >
-> **The schema is a historical record, not a draft** — 100 sequential migrations, never edited after running
+> **The schema is a historical record, not a draft** â€” 100 sequential migrations, never edited after running
 >
-> **If it isn't tested, assume it's broken** — ~2,400+ tests across all projects
+> **If it isn't tested, assume it's broken** â€” ~2,400+ tests across all projects
 
-**My process:** Understand the problem → Map the domain → Design architecture & write down trade-offs → Build in focused, tested increments → Test money paths first → Ship, then say what's still open
-
-<br/>
-<hr/>
-<br/>
-
-## Roles & Expertise
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #1f6feb; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #1f6feb; font-size: 13px;">Full-Stack Software Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">3 surfaces · 63 routes · 27 screens · 20 modules</span><br/>
-<span style="font-size: 10px;"><code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">React 19</code> <code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">Spring Boot 3</code> <code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">TypeScript</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #1f6feb; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #1f6feb; font-size: 13px;">Backend Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">Spring Boot 3 · Java 21 · 20 modules · 1600+ tests</span><br/>
-<span style="font-size: 10px;"><code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">Java 21</code> <code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">PostgreSQL</code> <code style="background: #1f6feb22; color: #1f6feb; padding: 2px 6px; border-radius: 4px;">Hexagonal</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #a371f7; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #a371f7; font-size: 13px;">AI/ML Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">8+ providers · ensemble · 539 tests · 26.6k lines</span><br/>
-<span style="font-size: 10px;"><code style="background: #a371f722; color: #a371f7; padding: 2px 6px; border-radius: 4px;">Gemini</code> <code style="background: #a371f722; color: #a371f7; padding: 2px 6px; border-radius: 4px;">Claude</code> <code style="background: #a371f722; color: #a371f7; padding: 2px 6px; border-radius: 4px;">OpenRouter</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #f78166; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #f78166; font-size: 13px;">Desktop App Developer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">Electron 45 · Win32 APIs · 46 OS tools · SQLCipher</span><br/>
-<span style="font-size: 10px;"><code style="background: #f7816622; color: #f78166; padding: 2px 6px; border-radius: 4px;">Electron</code> <code style="background: #f7816622; color: #f78166; padding: 2px 6px; border-radius: 4px;">Win32</code> <code style="background: #f7816622; color: #f78166; padding: 2px 6px; border-radius: 4px;">DPAPI</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #238636; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #238636; font-size: 13px;">Mobile Developer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">React Native 0.86 · Expo 57 · 27 screens · offline-first</span><br/>
-<span style="font-size: 10px;"><code style="background: #23863622; color: #238636; padding: 2px 6px; border-radius: 4px;">React Native</code> <code style="background: #23863622; color: #238636; padding: 2px 6px; border-radius: 4px;">Expo</code> <code style="background: #23863622; color: #238636; padding: 2px 6px; border-radius: 4px;">TypeScript</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #14a9a5; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #14a9a5; font-size: 13px;">Payments/Fintech Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">M-Pesa STK Push · idempotency · reconciliation · AES-GCM</span><br/>
-<span style="font-size: 10px;"><code style="background: #14a9a522; color: #14a9a5; padding: 2px 6px; border-radius: 4px;">M-Pesa</code> <code style="background: #14a9a522; color: #14a9a5; padding: 2px 6px; border-radius: 4px;">PayPal</code> <code style="background: #14a9a522; color: #14a9a5; padding: 2px 6px; border-radius: 4px;">WebRTC</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #f85149; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #f85149; font-size: 13px;">Security Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">SQLCipher · DPAPI · RBAC · risk-classified (Class 1-4)</span><br/>
-<span style="font-size: 10px;"><code style="background: #f8514922; color: #f85149; padding: 2px 6px; border-radius: 4px;">SQLCipher</code> <code style="background: #f8514922; color: #f85149; padding: 2px 6px; border-radius: 4px;">OAuth2</code> <code style="background: #f8514922; color: #f85149; padding: 2px 6px; border-radius: 4px;">Semgrep</code></span>
-</div>
-</td>
-</tr>
-<tr>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #58a6ff; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #58a6ff; font-size: 13px;">Cloud/Platform Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">Cloudflare Workers · Docker · CI/CD · render.yaml · IaC</span><br/>
-<span style="font-size: 10px;"><code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">Cloudflare</code> <code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">Docker</code> <code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">GitHub Actions</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #d29922; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #d29922; font-size: 13px;">Software Architect</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">Hexagonal · DDD · Clean Arch · ADRs · ArchUnit</span><br/>
-<span style="font-size: 10px;"><code style="background: #d2992222; color: #d29922; padding: 2px 6px; border-radius: 4px;">Hexagonal</code> <code style="background: #d2992222; color: #d29922; padding: 2px 6px; border-radius: 4px;">DDD</code> <code style="background: #d2992222; color: #d29922; padding: 2px 6px; border-radius: 4px;">ADRs</code></span>
-</div>
-</td>
-<td align="center" width="14%" valign="top">
-<div style="border-left: 4px solid #58a6ff; padding-left: 12px; margin: 8px 0;">
-<strong style="color: #58a6ff; font-size: 13px;">DevOps/Platform Engineer</strong><br/>
-<span style="font-size: 11px; color: #8b949e;">Actuator · Prometheus · Sentry · graceful shutdown</span><br/>
-<span style="font-size: 10px;"><code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">Prometheus</code> <code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">Sentry</code> <code style="background: #58a6ff22; color: #58a6ff; padding: 2px 6px; border-radius: 4px;">Actuator</code></span>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
+**My process:** Understand the problem â†’ Map the domain â†’ Design architecture & write down trade-offs â†’ Build in focused, tested increments â†’ Test money paths first â†’ Ship, then say what's still open
 
 <br/>
 <hr/>
@@ -143,142 +56,141 @@ I'm honest about where I'm still growing — running systems under real producti
 
 ## Skills & Tech Stack
 
-<div align="center">
-
 ### Backend Engineering
 
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Java 21</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Spring Boot 3</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Spring Security</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Node.js</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">TypeScript</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">REST / OpenAPI</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">JWT / JWKS</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">Hexagonal · DDD · Clean Architecture · Modular Monolith · Transactional Outbox · SOLID · OO Design</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Java 21</code> Â· <code>Spring Boot 3</code> Â· <code>Spring Security</code> Â· <code>Node.js</code> Â· <code>TypeScript</code> Â· <code>REST / OpenAPI</code> Â· <code>JWT / JWKS</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Architecture</strong></td>
+<td>Hexagonal (ports & adapters) Â· Domain-Driven Design Â· Clean Architecture Â· Modular monolith Â· Transactional outbox Â· SOLID Â· Object-oriented design</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Data & Persistence
 
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">PostgreSQL 16</code>
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Flyway</code>
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">JPA / Hibernate</code>
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Drizzle ORM</code>
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">PGlite</code>
-<code style="background: #23863622; color: #238636; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Neon</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">Schema Design · Append-Only Ledger · Idempotency Keys · Triggers · Pessimistic Locking · Keyset Pagination</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>PostgreSQL 16</code> Â· <code>Flyway</code> Â· <code>JPA / Hibernate</code> Â· <code>Drizzle ORM</code> Â· <code>PGlite</code> Â· <code>Neon</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Data engineering</strong></td>
+<td>Schema & constraint design Â· Append-only ledger patterns Â· Idempotency keys Â· Database triggers Â· Pessimistic locking Â· Keyset pagination Â· Transactional integrity</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Frontend & Mobile
 
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">React 19</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Next.js 16</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">TypeScript</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">TanStack Query</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Vite</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">TailwindCSS</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">React Native 0.86</code>
-<code style="background: #a371f722; color: #a371f7; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Expo 57</code>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>React 19</code> Â· <code>Next.js 16</code> Â· <code>TypeScript</code> Â· <code>TanStack Query</code> Â· <code>Vite</code> Â· <code>TailwindCSS</code> Â· <code>React Native 0.86</code> Â· <code>Expo 57</code></td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### AI, ML & LLMs
 
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Gemini</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Claude</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">OpenAI</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">OpenRouter</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Groq</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">DeepSeek</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">NVIDIA</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Perplexity</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">Multi-Model Ensemble · Voice Recognition · Speech Synthesis · Autonomous Systems · L0-L7 Prompt Compilation · Circuit Breakers · Speaker Verification</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Providers</strong></td>
+<td><code>Gemini</code> Â· <code>Claude / Anthropic</code> Â· <code>OpenAI</code> Â· <code>OpenRouter</code> Â· <code>Groq</code> Â· <code>DeepSeek</code> Â· <code>NVIDIA</code> Â· <code>Perplexity</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Capabilities</strong></td>
+<td>Multi-model ensemble reasoning Â· LLM integration Â· Voice recognition & speech synthesis Â· Autonomous systems Â· Prompt engineering (layered L0â€“L7 compilation) Â· Circuit breakers & failover Â· Speaker verification Â· Learning engines</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Payments & Integrations
 
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">M-Pesa Daraja</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">PayPal</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Clerk</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Africa's Talking</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Cloudinary</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">WebRTC</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">STK Push · B2C Payouts · Callback Handling · Idempotency · Reconciliation · Per-Tenant Encrypted Credentials · AES-GCM</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Providers</strong></td>
+<td><code>M-Pesa Daraja</code> Â· <code>PayPal</code> Â· <code>Clerk</code> Â· <code>Africa's Talking</code> Â· <code>Cloudinary</code> Â· <code>WebRTC</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Payment engineering</strong></td>
+<td>STK Push Â· B2C payouts Â· Callback handling Â· Idempotency Â· Reconciliation jobs Â· Per-tenant encrypted credentials Â· AES-GCM encryption</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Security
 
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">SQLCipher</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Windows Credential Manager</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">OAuth2</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">JWT</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">RBAC</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">DPAPI</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Semgrep</code>
-<code style="background: #f8514922; color: #f85149; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">gitleaks</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">Risk-Classified Policy (Class 1-4) · Rate Limiting · Tenant Isolation · Audit Trails · Untrusted Content Boundaries</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Tools</strong></td>
+<td><code>SQLCipher</code> Â· <code>Windows Credential Manager</code> Â· <code>OAuth2</code> Â· <code>JWT</code> Â· <code>RBAC</code> Â· <code>DPAPI</code> Â· <code>Semgrep</code> Â· <code>gitleaks</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Security engineering</strong></td>
+<td>Risk-classified policy engine (Class 1â€“4) Â· Rate limiting (sliding window) Â· Tenant isolation Â· Audit trails Â· Untrusted content boundaries Â· Dependency audit policies</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Desktop & OS
 
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Electron 45</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Win32 APIs</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">WinRT</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">PowerShell</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">UI Automation</code>
-<code style="background: #f7816622; color: #f78166; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">electron-builder</code>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Electron 45</code> Â· <code>Win32 APIs</code> Â· <code>WinRT</code> Â· <code>PowerShell</code> Â· <code>UI Automation</code> Â· <code>electron-builder</code></td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Testing & Delivery
 
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">JUnit 5</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Testcontainers</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Mockito</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">ArchUnit</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Vitest 5</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Jest</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Docker</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">GitHub Actions</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Maven</code>
-<code style="background: #d2992222; color: #d29922; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Turborepo</code>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>JUnit 5</code> Â· <code>Testcontainers</code> Â· <code>Mockito</code> Â· <code>ArchUnit</code> Â· <code>Vitest 5</code> Â· <code>Jest</code> Â· <code>Docker</code> Â· <code>GitHub Actions</code> Â· <code>Maven</code> Â· <code>Turborepo</code></td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Infrastructure & Hosting
 
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Cloudflare Workers</code>
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Render</code>
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Neon</code>
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Vercel</code>
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Prometheus</code>
-<code style="background: #58a6ff22; color: #58a6ff; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Sentry</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">Actuator Health Probes · Graceful Shutdown · CI/CD Pipelines · render.yaml Blueprints · EAS Build · Lighthouse 95+</span>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Cloudflare Workers</code> Â· <code>Render</code> Â· <code>Neon</code> Â· <code>Vercel</code> Â· <code>Prometheus</code> Â· <code>Sentry</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Ops</strong></td>
+<td>Actuator health probes Â· Graceful shutdown Â· CI/CD pipelines Â· `render.yaml` blueprints Â· EAS Build Â· Lighthouse 95+</td>
+</tr>
+</table>
 
-<br/><br/>
+<br/>
 
 ### Tooling & Workflow
 
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Git</code>
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">GitHub</code>
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">MapStruct</code>
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Springdoc OpenAPI</code>
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">Swagger UI</code>
-<code style="background: #8b949e22; color: #8b949e; padding: 4px 10px; border-radius: 6px; margin: 2px; display: inline-block;">gitleaks</code>
-<br/>
-<span style="color: #8b949e; font-size: 13px;">ADRs · ArchUnit Enforcement · Convention over Config · Contract-First API · api→app→domain→infra · Zero Type/Lint Errors</span>
-
-</div>
+<table>
+<tr>
+<td align="left" valign="top" width="180"><strong>Core</strong></td>
+<td><code>Git</code> Â· <code>GitHub</code> Â· <code>MapStruct</code> Â· <code>Springdoc OpenAPI</code> Â· <code>Swagger UI</code> Â· <code>gitleaks</code></td>
+</tr>
+<tr>
+<td align="left" valign="top"><strong>Practices</strong></td>
+<td>ADRs for key decisions Â· Hexagonal architecture enforced via ArchUnit Â· Convention over configuration Â· Contract-first API design Â· Separation of concerns (`api â†’ application â†’ domain â†’ infrastructure`) Â· Zero type/lint errors as a gate</td>
+</tr>
+</table>
 
 <br/>
 <hr/>
@@ -286,66 +198,27 @@ I'm honest about where I'm still growing — running systems under real producti
 
 ## Featured Projects
 
-### RentManager — Multi-tenant Rental SaaS for Kenya
+### RentManager â€” Multi-tenant Rental SaaS for Kenya
 
-> **20 modules · 100+ migrations · ~1,600 tests · M-Pesa Daraja STK Push**
+> **20 modules Â· 100+ migrations Â· ~1,600 tests Â· M-Pesa Daraja STK Push**
 >
 > Property management for Kenya: rent collection, digital leases, real-time analytics.
 > Three surfaces shipped: web (63 routes), mobile (27 screens), API (20 modules).
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(31,111,235,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-<div style="font-size: 24px; margin-bottom: 8px;">🌐</div>
-<strong style="color: #58a6ff;">Web</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">63 routes · Landlord dashboard · Tenant portal · Public listings · Admin console</span><br/><br/>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Next.js 16</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 2px 8px; border-radius: 4px; font-size: 11px;">React 19</code>
-<code style="background: #1f6feb22; color: #1f6feb; padding: 2px 8px; border-radius: 4px; font-size: 11px;">TanStack Query</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(35,134,54,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-<div style="font-size: 24px; margin-bottom: 8px;">📱</div>
-<strong style="color: #238636;">Mobile</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">27 screens · Push notifications · Offline detection · Secure token storage · Crash reporting</span><br/><br/>
-<code style="background: #23863622; color: #238636; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Expo 57</code>
-<code style="background: #23863622; color: #238636; padding: 2px 8px; border-radius: 4px; font-size: 11px;">React Native 0.86</code>
-<code style="background: #23863622; color: #238636; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Expo Router</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22; transition: transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 8px 24px rgba(163,113,247,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
-<div style="font-size: 24px; margin-bottom: 8px;">⚙️</div>
-<strong style="color: #a371f7;">API</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">20 modules · Tenant isolation · Verified Clerk JWT · Repository-level enforcement</span><br/><br/>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Java 21</code>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Spring Boot 3</code>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">PostgreSQL 16</code>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
-
-**[Backend](https://github.com/hassan200503/rentmanager-backend)** · **[Frontend — Live Demo](https://www.rentmanagerke.workers.dev)** · **[Mobile](https://github.com/hassan200503/rentmanager-mobile)**
+**[Backend](https://github.com/hassan200503/rentmanager-backend)** Â· **[Frontend â€” Live Demo](https://www.rentmanagerke.workers.dev)** Â· **[Mobile](https://github.com/hassan200503/rentmanager-mobile)**
 
 <details>
 <summary><b>Full project breakdown & engineering decisions</b></summary>
 
-**Product scope:** 20 domain modules — property, leasing, rent ledger, deposits, maintenance, subscriptions, reviews, tax, platform administration
+**Product scope:** 20 domain modules â€” property, leasing, rent ledger, deposits, maintenance, subscriptions, reviews, tax, platform administration
 
 **Surfaces shipped:**
 
 | Surface | Scope | Stack |
 |---|---|---|
-| **Web** | 63 routes — landlord dashboard, tenant portal, public listings, admin console | Next.js 16, React 19, TanStack Query |
-| **Mobile** | 27 screens — push notifications, offline detection, secure token storage, crash reporting | Expo 57, React Native 0.86, Expo Router |
-| **API** | 20 modules behind one contract — tenant isolation via verified token | Java 21, Spring Boot 3, PostgreSQL 16 |
+| **Web** | 63 routes â€” landlord dashboard, tenant portal, public listings, admin console | Next.js 16, React 19, TanStack Query |
+| **Mobile** | 27 screens â€” push notifications, offline detection, secure token storage, crash reporting | Expo 57, React Native 0.86, Expo Router |
+| **API** | 20 modules behind one contract â€” tenant isolation via verified token | Java 21, Spring Boot 3, PostgreSQL 16 |
 
 **Engineering decisions I'm proud of:**
 
@@ -355,10 +228,10 @@ I'm honest about where I'm still growing — running systems under real producti
 - **Idempotent M-Pesa STK Push:** a repeated request within a 3-minute window returns the existing pending payment instead of sending a second one (ADR-0016).
 - **Pessimistic locking on disbursements** to prevent concurrent double payouts (ADR-0018).
 - **Per-landlord encrypted M-Pesa credentials.** The platform never takes custody of funds.
-- **Transactional outbox pattern** — durable retry path without a message broker, with a clear future migration path.
-- **Provider capability is optional, not silently mocked** — integrations fail closed when required credentials are absent.
+- **Transactional outbox pattern** â€” durable retry path without a message broker, with a clear future migration path.
+- **Provider capability is optional, not silently mocked** â€” integrations fail closed when required credentials are absent.
 
-**Test evidence:** ~1,600 backend tests (JUnit 5, Testcontainers, ArchUnit) · 100+ Flyway migrations · Key decisions recorded as ADRs
+**Test evidence:** ~1,600 backend tests (JUnit 5, Testcontainers, ArchUnit) Â· 100+ Flyway migrations Â· Key decisions recorded as ADRs
 
 **Status, stated plainly:** deployed demo, with M-Pesa running against the Safaricom sandbox. Not commercially live yet. Runs on free-tier hosting, so the first load can be slow.
 
@@ -368,67 +241,28 @@ I'm honest about where I'm still growing — running systems under real producti
 <hr/>
 <br/>
 
-### Automata — Voice-First Windows AI Assistant
+### Automata â€” Voice-First Windows AI Assistant
 
-> **46 OS-level tools · 8+ AI providers · ensemble reasoning · 539 tests · 26,600 lines**
+> **46 OS-level tools Â· 8+ AI providers Â· ensemble reasoning Â· 539 tests Â· 26,600 lines**
 >
 > A Windows-first, voice-first personal AI companion. Speak or type; it runs real OS actions
 > and is honest about what it did. Only claims an action succeeded when the result was actually observed.
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">🧠</div>
-<strong style="color: #a371f7;">AI Reasoning</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">8+ providers · Multi-model ensemble · Circuit breakers · Streaming · Audit logging</span><br/><br/>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Gemini</code>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">OpenRouter</code>
-<code style="background: #a371f722; color: #a371f7; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Groq</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">🖥️</div>
-<strong style="color: #f78166;">OS Control</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">46 typed tools · System · Window · Text · Files · Media · Web/Email · Memory</span><br/><br/>
-<code style="background: #f7816622; color: #f78166; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Win32 APIs</code>
-<code style="background: #f7816622; color: #f78166; padding: 2px 8px; border-radius: 4px; font-size: 11px;">UI Automation</code>
-<code style="background: #f7816622; color: #f78166; padding: 2px 8px; border-radius: 4px; font-size: 11px;">PowerShell</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">🔒</div>
-<strong style="color: #f85149;">Security</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">SQLCipher · DPAPI · Risk classes 1-4 · Rate limits · Emergency stop (Ctrl+Shift+Esc)</span><br/><br/>
-<code style="background: #f8514922; color: #f85149; padding: 2px 8px; border-radius: 4px; font-size: 11px;">SQLCipher</code>
-<code style="background: #f8514922; color: #f85149; padding: 2px 8px; border-radius: 4px; font-size: 11px;">DPAPI</code>
-<code style="background: #f8514922; color: #f85149; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Credential Manager</code>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
-
-**[Download Release](https://github.com/hassan200503/automata/releases)** · **[Source](https://github.com/hassan200503/automata)**
+**[Download Release](https://github.com/hassan200503/automata/releases)** Â· **[Source](https://github.com/hassan200503/automata)**
 
 **Core capabilities:**
 
-- **46 typed, risk-classified tools** — system control, window management, text input, file ops, media capture, communication, web & email
-- **Multi-model ensemble reasoning** — fans out to 8+ AI providers, scores each answer, keeps the strongest
-- **Voice-first by default** — speech-to-text + text-to-speech with real-time transcription
-- **Learning engine** — episode logging, pattern consolidation, recipe learning, weekly review
-- **Enterprise-grade safety** — risk classes 1–4, rate limits, audit trail, global emergency stop (Ctrl+Shift+Esc)
+- **46 typed, risk-classified tools** â€” system control, window management, text input, file ops, media capture, communication, web & email
+- **Multi-model ensemble reasoning** â€” fans out to 8+ AI providers, scores each answer, keeps the strongest
+- **Voice-first by default** â€” speech-to-text + text-to-speech with real-time transcription
+- **Learning engine** â€” episode logging, pattern consolidation, recipe learning, weekly review
+- **Enterprise-grade safety** â€” risk classes 1â€“4, rate limits, audit trail, global emergency stop (`Ctrl+Shift+Esc`)
 
 **Security & privacy:**
 
 - SQLCipher-encrypted storage with DPAPI-wrapped keys
-- Windows Credential Manager for API keys — never hardcoded, never logged
-- Untrusted content boundary — web/email text tagged and sanitized
+- Windows Credential Manager for API keys â€” never hardcoded, never logged
+- Untrusted content boundary â€” web/email text tagged and sanitized
 - Per-action confirmation flows based on risk class
 
 | Metric | Value |
@@ -458,7 +292,7 @@ I'm honest about where I'm still growing — running systems under real producti
 
 **Multi-Model Reasoning:** Gemini, OpenRouter, Groq, NVIDIA, DeepSeek, OpenAI, Anthropic, Perplexity + custom OpenAI-compatible endpoints. Ensemble mode with circuit breakers, quota tracking, retries, automatic provider switching, streaming, and full audit logging.
 
-**Cognition:** Layered prompt compilation (L0–L7): safety → persona → context → memory → tools → style → policy → output. Decision orchestrator + style normalizer + response cache (100 entries, 5-min TTL, LRU).
+**Cognition:** Layered prompt compilation (L0â€“L7): safety â†’ persona â†’ context â†’ memory â†’ tools â†’ style â†’ policy â†’ output. Decision orchestrator + style normalizer + response cache (100 entries, 5-min TTL, LRU).
 
 </details>
 
@@ -466,62 +300,26 @@ I'm honest about where I'm still growing — running systems under real producti
 <hr/>
 <br/>
 
-### Lovora — Private Shared World for Two
+### Lovora â€” Private Shared World for Two
 
-> **302 tests · tested sync protocol · WebRTC calls · realtime chat**
+> **302 tests Â· tested sync protocol Â· WebRTC calls Â· realtime chat**
 >
 > A couples app: realtime chat, encrypted calls, synchronised watch/listen rooms,
 > memories and live discoveries. Next.js + TypeScript, PGlite/Postgres.
 
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">💬</div>
-<strong style="color: #14a9a5;">Realtime</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">Chat · Typing indicators · Delivery/read receipts · Reactions · Edits · Voice notes</span><br/><br/>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">WebSocket</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">TypeScript</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">📞</div>
-<strong style="color: #14a9a5;">Calls</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">WebRTC · Encrypted 1:1 · ICE restart · Web-push alerts · Drift correction</span><br/><br/>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">WebRTC</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">ICE</code>
-</div>
-</td>
-<td align="center" width="33%" valign="top" style="padding: 16px;">
-<div style="border: 1px solid #30363d; border-radius: 12px; padding: 16px; background: #161b22;">
-<div style="font-size: 24px; margin-bottom: 8px;">🔄</div>
-<strong style="color: #14a9a5;">Sync</strong><br/>
-<span style="color: #8b949e; font-size: 13px;">Framework-free protocol · Virtual-time tests · Clock skew · Jitter · Packet loss</span><br/><br/>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">PGlite</code>
-<code style="background: #14a9a522; color: #14a9a5; padding: 2px 8px; border-radius: 4px; font-size: 11px;">Postgres</code>
-</div>
-</td>
-</tr>
-</table>
-
-</div>
-
-**[Live](https://lovora-app.vercel.app)** · **[Source](https://github.com/hassan200503/Lovora)**
+**[Live](https://lovora-app.vercel.app)** Â· **[Source](https://github.com/hassan200503/Lovora)**
 
 **Features:**
-- Realtime chat — typing, delivery/read receipts, reactions, edits, voice notes
+- Realtime chat â€” typing, delivery/read receipts, reactions, edits, voice notes
 - Encrypted 1:1 WebRTC calls with ICE restart & web-push alerts
-- Together room — shared queue, clock estimation, drift correction
-- Shared gallery — signed reads, EXIF stripping, media validation
-- Discovery browser — RSS/Atom, iNaturalist, curated source cards
-- AI research — OpenAlex study search + Gemini-assisted lessons
+- Together room â€” shared queue, clock estimation, drift correction
+- Shared gallery â€” signed reads, EXIF stripping, media validation
+- Discovery browser â€” RSS/Atom, iNaturalist, curated source cards
+- AI research â€” OpenAlex study search + Gemini-assisted lessons
 
 **Engineering highlights:**
 - Framework-free sync protocol with deterministic virtual-time tests (clock skew, latency, jitter, packet loss)
-- Couple-owned data scoped by couple_id — request input never decides tenant
+- Couple-owned data scoped by <code>couple_id</code> â€” request input never decides tenant
 - bcrypt(12), signed httpOnly JWTs, session versioning for revocation
 - Single-use hashed invitations, expire 7 days, consumed transactionally
 - GitHub Actions CI with gitleaks + Semgrep SARIF
@@ -534,13 +332,13 @@ I'm honest about where I'm still growing — running systems under real producti
 
 | Repository | Description | Primary Language | License |
 |---|---|---|---|
-| [rentmanager-backend](https://github.com/hassan200503/rentmanager-backend) | RentManager API: rental management for Kenyan landlords and renters. Spring Boot 3, Java 21, PostgreSQL, M-Pesa Daraja, Clerk auth, multi-tenant. 20 modules, 100+ Flyway migrations, ~1,600 tests. | Java | — |
+| [rentmanager-backend](https://github.com/hassan200503/rentmanager-backend) | RentManager API: rental management for Kenyan landlords and renters. Spring Boot 3, Java 21, PostgreSQL, M-Pesa Daraja, Clerk auth, multi-tenant. 20 modules, 100+ Flyway migrations, ~1,600 tests. | Java | â€” |
 | [rentmanager-frontend](https://github.com/hassan200503/rentmanager-frontend) | Kenya's trusted rental platform \| Full-stack Property Management SaaS with M-Pesa integration, digital leases, real-time analytics, and automated rent collection. 63 routes, deployed on Cloudflare Workers. | TypeScript | MIT |
 | [rentmanager-mobile](https://github.com/hassan200503/rentmanager-mobile) | RentManager mobile app for landlords and renters in Kenya. Expo 57, React Native 0.86, TypeScript. 27 screens, M-Pesa STK Push, push notifications, offline detection. | TypeScript | MIT |
 | [automata](https://github.com/hassan200503/automata) | Windows-first, voice-first personal AI companion. 46 OS-level tools, multi-model ensemble reasoning (8+ providers), SQLCipher encryption, 539 tests, 26.6k lines. | TypeScript | MIT |
-| [Lovora](https://github.com/hassan200503/Lovora) | A private shared world for two: realtime chat, encrypted WebRTC calls, synchronised watch/listen rooms, memories and live discoveries. Tested sync protocol, 302 tests. | TypeScript | — |
-| [personal-companion-bot](https://github.com/hassan200503/personal-companion-bot) | Voice-first AI companion (now evolved into Automata). Electron 45, React 19, TypeScript, autonomous capabilities. | TypeScript | — |
-| [hassan200503](https://github.com/hassan200503/hassan200503) | This profile README — personal information and portfolio. | Markdown | — |
+| [Lovora](https://github.com/hassan200503/Lovora) | A private shared world for two: realtime chat, encrypted WebRTC calls, synchronised watch/listen rooms, memories and live discoveries. Tested sync protocol, 302 tests. | TypeScript | â€” |
+| [personal-companion-bot](https://github.com/hassan200503/personal-companion-bot) | Voice-first AI companion (now evolved into Automata). Electron 45, React 19, TypeScript, autonomous capabilities. | TypeScript | â€” |
+| [hassan200503](https://github.com/hassan200503/hassan200503) | This profile README â€” personal information and portfolio. | Markdown | â€” |
 
 <br/>
 <hr/>
@@ -550,13 +348,13 @@ I'm honest about where I'm still growing — running systems under real producti
 
 | Role type | Details |
 |---|---|
-| **Full-time** | Junior / entry-level backend or full-stack roles — remote or Kenya-based |
+| **Full-time** | Junior / entry-level backend or full-stack roles â€” remote or Kenya-based |
 | **Freelance & contract** | SaaS products, business workflow systems, backend/API work, M-Pesa integrations, AI-powered systems |
 | **Open source** | Want to work alongside more experienced engineers. Code review is valued more than pay right now. |
 
-**Where:** Remote (any timezone) · On-site in Kenya · Willing to relocate for the right role
+**Where:** Remote (any timezone) Â· On-site in Kenya Â· Willing to relocate for the right role
 
-**Timezone overlap:** UTC+3 — 1–2 hours ahead of CET, same morning window as EET, and a natural 4-hour overlap with US East Coast afternoons.
+**Timezone overlap:** UTC+3 â€” 1â€“2 hours ahead of CET, same morning window as EET, and a natural 4-hour overlap with US East Coast afternoons.
 
 <br/>
 <hr/>
@@ -564,9 +362,9 @@ I'm honest about where I'm still growing — running systems under real producti
 
 ## Currently
 
-- **Automata** — enhancing autonomous capabilities, voice interaction, and plugin system
-- **RentManager** — polishing deployment story and preparing for commercial launch
-- **AI exploration** — building intelligent business automation and voice-first assistants
+- **Automata** â€” enhancing autonomous capabilities, voice interaction, and plugin system
+- **RentManager** â€” polishing deployment story and preparing for commercial launch
+- **AI exploration** â€” building intelligent business automation and voice-first assistants
 - **Open to** junior / entry-level backend or full-stack roles (remote or Kenya-based) and freelance work on payments, SaaS backends, and AI-powered systems
 
 <br/>
@@ -588,7 +386,7 @@ I'm honest about where I'm still growing — running systems under real producti
 
 <br/><br/>
 
-**Fastest response:** WhatsApp (+254 714 931 575) — replies same day · **Better for longer messages:** Email
+**Fastest response:** WhatsApp (+254 714 931 575) â€” replies same day Â· **Better for longer messages:** Email
 
 </div>
 
